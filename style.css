@@ -37,3 +37,7 @@ footer {
   text-align: center;
   color: grey;
 }
+
+.hide {
+  display: none;
+}
