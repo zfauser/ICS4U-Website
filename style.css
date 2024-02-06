@@ -41,3 +41,10 @@ footer {
 .hide {
   display: none;
 }
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+  display: inline-block;
+  width: auto;
+}
