@@ -40,3 +40,11 @@ assignmentButton.addEventListener("mouseover", () => {
 assignmentButton.addEventListener("mouseout", () => {
   assignmentButtonText.classList.add('hide');
 });
+
+if (window.location.href.includes('index.html') || window.location.pathname === '/') {
+  homeButton.classList.add('hide');
+} else if (window.location.href.includes('about-me.html')) {
+  aboutButton.classList.add('hide');
+} else if (window.location.href.includes('assignments.html')) {
+  assignmentButton.classList.add('hide');
+}
