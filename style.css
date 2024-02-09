@@ -52,3 +52,10 @@ ul {
   display: inline-block;
   width: auto;
 }
+
+ol {
+  list-style-position: inside;
+  text-align: center;
+  display: inline-block;
+  width: auto;
+}
