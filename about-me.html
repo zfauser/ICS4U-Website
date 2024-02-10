@@ -1,43 +1,70 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Zach's Homepage - About Me</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/371f6d5bcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Used for the icons in the header -->
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Zach's Homepage - About Me</title>
-  <link rel="icon" type="image/x-icon" href="./favicon.ico">
-  <script src="https://kit.fontawesome.com/371f6d5bcd.js" crossorigin="anonymous"></script>
-  <!-- Used for the icons in the header -->
-  <script src="script.js" defer></script>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <body>
+    <header id="header">
+      Zach's Homepage
+      <hr />
+      <button class="header-button" id="home">
+        <i class="fa-solid fa-house fa-lg" style="color: #808080"></i>&nbsp;<a
+          class="hide"
+          id="homeText"
+          >Home</a
+        >
+      </button>
+      &nbsp;
+      <button class="header-button" id="info">
+        <i class="fa-solid fa-circle-info fa-lg" style="color: #808080"></i
+        >&nbsp;<a class="hide" id="aboutmeText">About Me</a>
+      </button>
+      &nbsp;
+      <button class="header-button" id="assignments">
+        <i class="fa-solid fa-clipboard fa-lg" style="color: #808080"></i
+        >&nbsp;<a class="hide" id="assignmentsText">Assignments</a>
+      </button>
+    </header>
+    <br />
+    <img src="./zachfauser-2.jpeg" height="275" />
+    <h1>About Me</h1>
+    <p>
+      Hi there, my name is Zach! I am a grade 12 student that goes to South
+      Carleton High School. I enjoy many different aspects of technology. My
+      favourite programming language is JavaScript. Next year, I hope to go to
+      university for Computer Science.
+      <br />
+      <br />
+      Outside of school, I enjoy exploring many different areas, like the cloud,
+      specifically Azure and Oracle Cloud. I also enjoy playing around in Linux
+      and programming.
+      <br />
+      <br />
+      During the summer, I worked at the Bank of Canada in the IT department.
+      Specifically, I helped to deploy some of their new computers, which helped
+      me to learn a lot about different aspects of device management using the
+      Microsoft Intune tool.
+    </p>
 
-<body>
-  <header id="header">
-    Zach's Homepage
-    <hr>
-    <button class="header-button" id="home"><i class="fa-solid fa-house fa-lg" style="color: #808080;"></i>&nbsp;<a
-        class="hide" id="homeText">Home</a></button>
-    &nbsp;
-    <button class="header-button" id="info"><i class="fa-solid fa-circle-info fa-lg"
-        style="color: #808080;"></i>&nbsp;<a class="hide" id="aboutmeText">About Me</a></button>
-    &nbsp;
-    <button class="header-button" id="assignments"><i class="fa-solid fa-clipboard fa-lg"
-        style="color: #808080;"></i>&nbsp;<a class="hide" id="assignmentsText">Assignments</a></button>
-  </header>
-  <h1>About Me</h1>
-  <p>
-    Hi there, my name is Zach! I am a grade 12 student that goes to South Carleton High School. I enjoy many different
-    aspects of technology. My favourite programming langauge is JavaScript. Next year, I hope to go to university for
-    Computer Science.
-  </p>
-
-  <br>
-  <p>To find out more about me, here is a link to my <a href="./resume.pdf" target="_blank">resume</a></p>
-  <footer>
-    <hr>
-    <p>© 2024 Zach Fauser</p>
-  </footer>
-</body>
-
+    <br />
+    <p>
+      To find out more about me, here is a link to my
+      <a href="./resume.pdf" target="_blank">resume</a>
+    </p>
+    <footer>
+      <hr />
+      <p>© 2024 Zach Fauser</p>
+    </footer>
+  </body>
 </html>
