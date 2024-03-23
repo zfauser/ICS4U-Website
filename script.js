@@ -50,4 +50,8 @@ if (
   aboutButton.classList.add("hide");
 } else if (window.location.href.includes("assignments.html")) {
   assignmentButton.classList.add("hide");
+} else if (window.location.href.includes("qotw")) {
+  homeButton.classList.remove("hide");
+  aboutButton.classList.remove("hide");
+  assignmentButton.classList.remove("hide");
 }
