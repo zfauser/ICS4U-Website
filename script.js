@@ -6,15 +6,15 @@ let aboutButtonText = document.querySelector("#aboutmeText");
 let assignmentButtonText = document.querySelector("#assignmentsText");
 
 homeButton.addEventListener("click", () => {
-  window.location.href = "index.html";
+  window.location.replace("/index.html");
 });
 
 aboutButton.addEventListener("click", () => {
-  window.location.href = "about-me.html";
+  window.location.replace("/about-me.html");
 });
 
 assignmentButton.addEventListener("click", () => {
-  window.location.href = "assignments.html";
+  window.location.replace("/assignments.html");
 });
 
 homeButton.addEventListener("mouseover", () => {
